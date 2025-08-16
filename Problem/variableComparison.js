@@ -33,4 +33,29 @@ console.log(myMarks > 33); //true
 //Practice 3
 const jambur = "Jambur";
 const kadabel = 'Kadabel';
-console.log(jambur < kadabel); //true 
+console.log(jambur < kadabel); //true
+
+//Practice 4
+let me = 10;
+let friends = 10;
+console.log(me == friends); //true 
+
+//Practice 5
+let me1 = 15;
+let friend1 = 20;
+console.log(me1 < friend1); //true 
+
+//Practice 6
+let team1 = 2;
+let team2 = 3;
+console.log(team1 < team2); //true 
+
+//Practice 7
+const myName = "Rhaim";
+const friend = "Karim";
+console.log(myName == friend); //false 
+
+//Practice 8
+let iStudy = true;
+let youStudy = false;
+console.log(iStudy == youStudy); //false 
