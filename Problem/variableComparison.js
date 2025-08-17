@@ -59,3 +59,39 @@ console.log(myName == friend); //false
 let iStudy = true;
 let youStudy = false;
 console.log(iStudy == youStudy); //false 
+
+
+//------------------------------------------------------------------------------------------------
+
+//Practice-1
+console.log(50 == '50'); //true 
+console.log(50 === '50'); //false 
+
+//Practice-2
+console.log('JavaScript' == 'JavaScript'); //true 
+console.log('JavaScript' === 'JavaScript'); //true 
+
+//Practice-3
+console.log(25 == '25'); //true 
+console.log(25 === '25'); //false
+
+//Practice-4
+console.log('apple' == 'apple'); //both true 
+console.log('apple' === 'apple');
+
+//Practice-5
+console.log('TEST' == 'test'); //both false
+console.log('TEST' === 'test');
+
+//Practice-6
+let variableX = 15;
+let variableY = 20;
+console.log(variableX != variableY); //both false
+console.log(variableX !== variableY);
+
+//Practice-7
+let variableA = 'hello';
+let variableB = "Hello";
+console.log(variableA == variableB);//both false
+console.log(variableA === variableB);
+
