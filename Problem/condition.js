@@ -294,3 +294,29 @@ if (gameLavel <= 10) {
 } else {
     console.log("Pro gamer!");
 } //ans: Pro gamer!
+
+
+
+
+
+//Rendome Example 
+const money = 400;
+const popCorn = 40;
+
+if (money >= 300) {
+  console.log("Going to watch a movie.");
+
+  //------
+  if (popCorn <= 50) {
+    console.log("Buying PopCorn");
+  } else {
+    console.log("PopCorn is expensive!");
+  }
+  //-------
+ 
+} else{
+  console.log("Home Alone");
+} //Ans: Going to watch a movie. Buying PopCorn
+
+
+
