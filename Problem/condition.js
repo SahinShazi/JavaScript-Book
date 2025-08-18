@@ -246,3 +246,53 @@ if(hasMoney <= 1000) {
 } else{
   console.log("You have already lot of money 🤑. Please give me some money for my work!");
 } //You should be Deposit!
+
+
+//Practice-4
+const yourMarks = 90;
+
+if(yourMarks < 50) {
+  console.log("You are Fail!");
+} else if(yourMarks <= 80) {
+  console.log("You are PASS the exam!");
+} else{
+  console.log("Congratulations! You are achieve A+!");
+} //Congratulations! You are achieve A+!
+
+
+//Practice 5 
+const bookPages = 600;
+
+if(bookPages <= 100){
+  console.log("Your book is SMALL!");
+} else if(bookPages <= 500) {
+  console.log("Your book is medium size!");
+} else{
+  console.log("Your book is very big!");
+} //ans: Your book is very big!
+
+
+//Practice 6 
+const temperature1 = 23;
+
+if(temperature1 <= 0) {
+  console.log("The temperature is Ice!");
+} else if(temperature1 <= 20) {
+  console.log("The temperature is Cool!");
+} else{
+  console.log("The temperature is Hot!");
+} //Ans: The temperature is Hot!
+
+
+
+
+//Practice 7
+const gameLavel = 70;
+
+if (gameLavel <= 10) {
+    console.log("Novice");
+} else if (gameLavel <= 20) {
+    console.log("Expart!");
+} else {
+    console.log("Pro gamer!");
+} //ans: Pro gamer!
