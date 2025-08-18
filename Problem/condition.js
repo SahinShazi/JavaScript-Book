@@ -172,3 +172,17 @@ Please. You sleep on your home!
 You are ready for this Exam!
 I well play game!
 Sorry! I don't have coupon!*/
+
+
+//Example Condition
+const price = 100000;
+
+if(price >= 10000) {
+  const discount = price/100*20;
+  const pay = price - discount;
+  console.log(pay);
+} else if(price >= 5000) {
+  const discount = price/100*10;
+  const pay = price - discount;
+  console.log(pay);
+} //Ans: 80000
