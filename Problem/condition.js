@@ -200,3 +200,36 @@ if(price >= 5000) {
 } else{
   console.log(price);
 } //Ans: 5400
+
+
+//-------------------------------------------
+//Practice 1
+const price = 4500;
+
+if(price >= 6000) {
+  const discount = price/100*15;
+  const pay = price - discount;
+  console.log(pay);
+} else if(price >= 3000) {
+  const discount = price/100*5;
+  const pay = price - discount;
+  console.log(pay);
+}else{
+  console.log(price);
+} //ans: 4275
+
+
+
+//Practice 2
+const age = 70;
+const price = 300;
+
+if(age <= 12) {
+  console.log("You can eat for free.");
+} else if(age > 60) {
+  const discount = price/100*50;
+  const pay = price - discount;
+  console.log(pay);
+}else{
+  console.log(price);
+} //ans: 150
