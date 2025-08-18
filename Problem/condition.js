@@ -284,8 +284,6 @@ if(temperature1 <= 0) {
 } //Ans: The temperature is Hot!
 
 
-
-
 //Practice 7
 const gameLavel = 70;
 
