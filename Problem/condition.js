@@ -233,3 +233,16 @@ if(age <= 12) {
 }else{
   console.log(price);
 } //ans: 150
+
+
+
+//Practice-3
+const hasMoney = 1000;
+
+if(hasMoney <= 1000) {
+  console.log("You should be Deposit!");
+} else if(hasMoney <= 5000) {
+  console.log("Enjoy your money!");
+} else{
+  console.log("You have already lot of money 🤑. Please give me some money for my work!");
+} //You should be Deposit!
