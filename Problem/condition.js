@@ -186,3 +186,15 @@ if(price >= 10000) {
   const pay = price - discount;
   console.log(pay);
 } //Ans: 80000
+
+
+//Random Example
+const price = 6000;
+
+if(price >= 5000) {
+  const discount = price/100*10;
+  const pay = price - discount;
+  console.log(pay);
+} else{
+  console.log(price);
+} //Ans: 5400
