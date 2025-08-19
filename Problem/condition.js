@@ -322,27 +322,20 @@ if (money >= 300) {
 
 //-------------------------------------------
 //Practice 1
-const friend = true;
-const hasMoney = 2000;
+const daoyat = true;
+const haveMoney = 1001;
 
-if (friend == true) {
-  console.log("I go to friend home!");
-  
-  if (friend == true) {
-    console.log("Check my wallet!");
-    
-    if (hasMoney >= 1000) {
-      console.log("I buy gift for my friend!");
-    } else {
-      console.log("I will go to my friend's house without buying any gifts.");
-    }
+if (daoyat == true) {
+
+  if (haveMoney > 1000) {
+    console.log("I have 1000+ money! I will go to my friend's birthday");
+  } else {
+    console.log("I don't have money! But I will go to my friend's birthday");
   }
-  
 } else {
-  console.log("Get out my friend list!");
-  } /*Ans: I go to friend home!
-Check my wallet!
-I buy gift for my friend! */
+  console.log("Get out from my friend list!");
+} //Ans: I have 1000+ money! I will go to my friend's birthday
+
 
 
 //Practice 2
