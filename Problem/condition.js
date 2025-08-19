@@ -320,3 +320,26 @@ if (money >= 300) {
 
 
 
+//-------------------------------------------
+//Practice 1
+const friend = true;
+const hasMoney = 2000;
+
+if (friend == true) {
+  console.log("I go to friend home!");
+  
+  if (friend == true) {
+    console.log("Check my wallet!");
+    
+    if (hasMoney >= 1000) {
+      console.log("I buy gift for my friend!");
+    } else {
+      console.log("I will go to my friend's house without buying any gifts.");
+    }
+  }
+  
+} else {
+  console.log("Get out my friend list!");
+  } /*Ans: I go to friend home!
+Check my wallet!
+I buy gift for my friend! */
