@@ -356,3 +356,48 @@ if (guest == true) {
 } else {
   console.log("No have any guests!");
 } //Ans: Give me Tree and Biscuit!
+
+
+//Practice 3
+const userAccountActive = true;
+const userHaveSubscription = true;
+
+if (userAccountActive == true) {
+  if(userHaveSubscription == true) {
+    console.log("Wow your have Premium Subscription! Enjoy! 😍");
+  } else {
+    console.log("Please make sure you buy Premium Subscription.");
+  }
+} else {
+  console.log("Please make sure your account is active!");
+} //Ans: Wow your have Premium Subscription! Enjoy! 😍
+
+
+
+//Practice 4
+const haveFood = false;
+const deliverySetyem = true;
+
+if (haveFood == true) {
+    console.log("I will heat the food!");
+} else if (deliverySetyem == true) {
+    console.log("I place Order!");
+} else {
+    console.log("I am fasting today!")
+} //Ans: I place Order!
+
+
+
+//Practice 5
+const guest = 100;
+const giveGift = true;
+
+if (guest >= 100) {
+    if (giveGift == true) {
+        console.log("Lets party all night!");
+    } else {
+        console.log("I well party with myself!");
+    }
+} else {
+    console.log("Don't have any party!");
+} //Ans: Lets party all night!
