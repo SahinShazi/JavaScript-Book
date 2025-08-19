@@ -343,3 +343,23 @@ if (friend == true) {
   } /*Ans: I go to friend home!
 Check my wallet!
 I buy gift for my friend! */
+
+
+//Practice 2
+const guest = true;  
+const wantTea = true;
+const wantBiscuit = true;
+
+if (guest == true) {
+  if (wantTea == true) {
+    if (wantBiscuit == true) {
+      console.log("Give me Tree and Biscuit!");
+    } else {
+      console.log("Just give me tree!");
+    }
+  } else {
+    console.log("Sit and watch TV!");
+  }
+} else {
+  console.log("No have any guests!");
+} //Ans: Give me Tree and Biscuit!
