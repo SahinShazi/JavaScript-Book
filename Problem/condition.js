@@ -401,3 +401,36 @@ if (guest >= 100) {
 } else {
     console.log("Don't have any party!");
 } //Ans: Lets party all night!
+
+
+//-------------------------------------------
+//Ternary Operator
+//Practice 1
+let cashback = 000;
+
+cashback >= 3000 ? console.log("Discount 500 Tk") : console.log("Discount 0 Tk"); //Ans: Discount 0 Tk
+
+//Practice 2
+const age = 17;
+
+age >= 15 ? console.log("Teenager") : console.log("Child"); //Ans: Teenager
+
+//Practice 3
+const isLoggedIn = true;
+isLoggedIn === true ? console.log("Welcome Back") : console.log("Please login"); //Ans: Welcome Back 
+
+//Practice 4
+const tank = true;
+tank === true ? console.log("Ready for the long drive.") : console.log("Fill the tank.");//Ans: Ready for the long drive.
+
+//Practice 5
+const passExam = true;
+passExam === true ? console.log("Party Time.") : console.log("Next Semester e serious study korbo."); //Ans: Party Time.
+
+//Practice 6
+const sunny = false;
+sunny === true ? console.log("Get  out from home.") : console.log("Stay Home."); //Ans: Stay Home.
+
+//Practice 7
+const expensive = false;
+expensive === true ? console.log("This is expensive.") : console.log("I will buy this item.");//Ans: I will buy this item.
