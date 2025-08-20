@@ -31,3 +31,34 @@ console.log(color.length); //Ans: 6
 const con = ["Bangladesh", "India", "Pakistan", "Turkey", "Saudi Arab", "America"];
 console.log(con);
 console.log(con.length) //6
+
+//-------------------------------------------------------------
+//Problem 1
+const friends = ["Lemon", "Emon", "Nahim", "Sahin"];
+console.log(friends[3]); //Sahin 
+
+//Problem 2
+const books = ["A book", "B book", "C book", "D book", "E book", "F book"];
+console.log(books[5]); //F book 
+
+//Problem 3
+const number = [1,2,3,4,5,6,7,8,9,10];
+number[7] = 30;
+console.log(number);
+
+//Problem 4
+const games = ["Greenfield", "Rosewood", "Mapleton", "Hillcrest", "Riverton"];
+games[2] = "FreeFire"
+console.log(games);
+
+//Problem 5
+const family = ["Sahin", "Sahkil", "Minara", "Jamal"];
+console.log(family);
+
+//Problem 6
+const countrys = ["Bangladesh", "India", "Canada", "Australia", "Pakistan"];
+console.log(countrys[4]); //Pakistan 
+
+//Problem 7
+const have = ["Pencil", "Books", "Mirror", "Glesas", "Mobile", "JavaScript Book", "Cabel", "Brash"];
+console.log(have[7]); //Brash
