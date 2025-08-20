@@ -407,12 +407,10 @@ if (guest >= 100) {
 //Ternary Operator
 //Practice 1
 let cashback = 000;
-
 cashback >= 3000 ? console.log("Discount 500 Tk") : console.log("Discount 0 Tk"); //Ans: Discount 0 Tk
 
 //Practice 2
 const age = 17;
-
 age >= 15 ? console.log("Teenager") : console.log("Child"); //Ans: Teenager
 
 //Practice 3
