@@ -87,3 +87,14 @@ for (let num of numbers) {
     console.log("The " + num + " is even number.")
   }
 }
+
+
+//Problem 13
+let numbers = [5, 10, 15, 20, 25];
+
+let sum = 0;
+for (let num of numbers) {
+  sum = sum + num;
+  //console.log("Sum = " + sum)
+}
+console.log("Sum = " + sum)
