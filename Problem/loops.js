@@ -70,3 +70,20 @@ let letters = ["a", "b", "c", "d"];
 for (let letter of letters) {
   console.log(letter.toUpperCase());
 }
+
+
+//Problem 11
+let names = ["Sakib", "Rifat", "Nayeem", "Hasan"];
+
+for (let name of names) {
+  console.log(name + "-> " + name.length);
+}
+
+//Problem 12
+let numbers = [5, 8, 12, 15, 20];
+
+for (let num of numbers) {
+  if (num % 2 === 0) {
+    console.log("The " + num + " is even number.")
+  }
+}
