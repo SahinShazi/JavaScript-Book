@@ -28,3 +28,45 @@ let date = ["2/7/2025", "7/5/2025", "3/10/2025", "5/7/2025"];
 for (let dates of date) {
     console.log(dates);
 }
+
+//Problem 6
+let numbers = [10, 20, 30, 40, 50];
+for (let num1 of numbers) {
+  console.log(num1 + " is a number");
+}
+
+//Problem 7
+let ages = [13, 12, 18, 25, 30, 15];
+for (let age of ages) {
+  if(age <= 12) {
+    console.log(age + " this is a Child.")
+  } else if (age >= 18) {
+    console.log(age + " this is a Adult.")
+  } else if (age > 12) {
+    console.log(age + " this is a Adult.");
+  }
+}
+
+//Problem 8
+let fruits = ["Mango", "Orange", "Banana", "Apple"];
+for (let food of fruits) {
+  console.log(fruits.indexOf(food) + " " + food);
+}
+
+
+//Problem 9
+let marks = [80, 55, 90, 45, 70];
+for (let mark of marks) {
+  if (mark >= 50) {
+    console.log(mark + " Pass");
+  } else {
+    console.log(mark + " Fail");
+  }
+}
+
+
+//Problem 10
+let letters = ["a", "b", "c", "d"];
+for (let letter of letters) {
+  console.log(letter.toUpperCase());
+}
