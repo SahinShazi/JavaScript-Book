@@ -138,3 +138,52 @@ games.pop();
 games.unshift("Volleyball");
 console.log(games);
 
+
+//________Includes________
+
+//Problem 1
+const foods = ["Apple", "Mango", "Banana"];
+if (foods.includes("Apple")) {
+    console.log("I have apple");
+} else {
+    console.log("I don't have Apple");
+}
+
+foods.includes("Apple") ? console.log("I have Apple") : console.log("I don't have Apple");
+
+//Problem 2
+const name = ["Babul", "Arif", "Alef"];
+const index = name.indexOf("Babul");
+console.log(index);
+
+//Problem 3
+const friends = ["Kshem", "Rone", "Babul"];
+console.log(friends.indexOf("Rone"));
+
+//Problem 4
+const cities = ["Dhaka", "Chattagram", "Sylhet"];
+cities.push("rajshahi");
+console.log(cities);
+console.log(cities.includes("Rajshahi"));
+
+
+//Problem 5
+const have = ["Rain", "Degi", "Monsoon"];
+if (have.includes("Rain")) {
+    console.log("I need umbrella.");
+} else {
+    console.log("No rain no pain.");
+}
+
+have.includes("rain") ? console.log("I need Umbrella") : console.log("No rain no pain");
+
+//Problem 6
+const play = ["Football", "Cricket", "Badminton", "Volleyball"];
+
+if (play.includes("Badminton")) {
+    console.log("I play Badminton");
+} else {
+    console.log("I don't play Badminton");
+}
+
+play.includes("Badminton") ? console.log("I play Badminton") : console.log("I don't play Badminton");
