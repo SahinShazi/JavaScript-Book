@@ -62,3 +62,79 @@ console.log(countrys[4]); //Pakistan
 //Problem 7
 const have = ["Pencil", "Books", "Mirror", "Glesas", "Mobile", "JavaScript Book", "Cabel", "Brash"];
 console.log(have[7]); //Brash
+
+
+
+
+
+
+//________________________________________
+//Problem 1
+const num = [10,20,30,40,50];
+num.push(60);
+console.log(num);//+60
+
+//Problem 2
+const friends = ["Sahin", "Maruf", "Emon", "Mohin"];
+friends.push("Somun");
+console.log(friends); //+ Somun
+
+//Problem 3
+const games = ["Ars", "Farms", "football", "cricket"]
+games.pop();
+console.log(games); //- cricket 
+
+//Problem 4
+const number = [24, 36, 48, 60];
+number.unshift(12);
+console.log(number); //first item +12
+
+//Problem 5
+const books = ["Book1", "Book2", "Book3"]
+books.shift();
+console.log(books); //-book1
+
+
+//Problem 6
+const foods = ["Mango", "Banana", "Apple"];
+foods.push("Orange");
+foods.shift();
+foods.unshift("Guava");
+console.log(foods);
+
+//Problem 7
+const country = ["Bangladesh", "India", "Nepal"];
+country.push("Butane");
+country.pop();
+country.unshift("Pakistan");
+console.log(country);
+
+//Problem 8
+const friends = ["Sakib", "Rifat", "Hasan"];
+friends.shift();
+friends.push("Nayeem");
+friends.unshift("Rakib");
+console.log(friends);
+
+//Problem 9
+const cities = ["Dhaka", "Chittagong", "Khulna"];
+cities.push("Rajshahi")
+cities.pop();
+cities.unshift("Sylhet");
+console.log(cities);
+
+
+//Problem 9
+const books = ["Math", "English", "Science"];
+books.push("History");
+books.shift();
+books.unshift("ICT");
+console.log(books);
+
+//Problem 10
+const games = ["Football", "Cricket", "Hockey"];
+games.push("Badminton");
+games.pop();
+games.unshift("Volleyball");
+console.log(games);
+
