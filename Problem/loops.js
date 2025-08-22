@@ -98,3 +98,18 @@ for (let num of numbers) {
   //console.log("Sum = " + sum)
 }
 console.log("Sum = " + sum)
+
+
+//Problem 14
+let numbers = [12, 25, 7, 40, 18];
+let maxNumber = Math.max(...numbers);
+console.log("Largest number is " + maxNumber);
+
+//Problem 15
+let words = ["javascript", "book", "computer", "sun", "elephant"];
+for (let word of words) {
+  if (word.length >= 5) {
+    console.log(word + " the word is length");
+  }
+}
+
