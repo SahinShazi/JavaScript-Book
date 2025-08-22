@@ -111,5 +111,28 @@ for (let i = 91; i <= 120; i++) {
 }
 
 
+//Problem 7
+// 1 থেকে 30 পর্যন্ত সব সংখ্যা প্রিন্ট করো।
+// তবে শুধু জোড় সংখ্যাগুলো দেখাও।
+for (let i = 1; i <= 30; i++) {
+    if (i % 2 === 0) {
+        //console.log(i);
+    }
+}
 
+//Problem 8
+let marks = [45, 67, 32, 80, 95, 50, 40];
+// লুপ ব্যবহার করে শুধু "পাস" করা (৫০ বা তার বেশি) মার্কসগুলো দেখাও।
+for (let i of marks) {
+    if (i >= 50) {
+        // console.log(i + " >-Pass");
+    } else {
+        // console.log(i + " >-Fail");
+    }
+}
 
+//Problem 9
+// 5 এর নামতা (multiplication table) প্রিন্ট করো, 1 থেকে 10 পর্যন্ত।
+for (let i = 1; i <= 10; i++) {
+    //console.log(i * 5);
+}
