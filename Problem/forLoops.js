@@ -150,3 +150,47 @@ let names = ["Maruf", "Ismail", "Rakib", "Tanim", "Shihab"];
 for (let i = 0; i < names.length; i++) {
   console.log(i + " - " + names[i]);
 }
+
+//Problem 12
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 == 0) {
+    //console.log("Even: " + i);
+  } else {
+    //console.log("Odd: " + i);
+  }
+}
+
+//Problem 13
+let marks = [45, 67, 89, 32, 94, 55];
+let highest = marks[0];
+for (let mark of marks) {
+    if (mark > highest) {
+        highest = mark;
+    }
+}
+//console.log("Highest Marks = " + highest);
+
+
+//Problem 14
+let letters = ["a", "b", "c", "d", "e"];
+for (let i = letters.length - 1; i >= 0; i--) {
+    //console.log(letters[i]);
+}
+
+//Problem 15
+for (let i = 1; i <= 10; i++) {
+  //console.log(i * 7);
+}
+
+//Problem 16
+let numbers = [10, 20, 30, 40, 50];
+// সব সংখ্যার যোগফল আর গড় বের করো।
+let sum = 0;
+for (let num of numbers) {
+  sum = sum + num;
+}
+let average = sum / numbers.length;
+//console.log(sum);
+//console.log(average);
+
+
