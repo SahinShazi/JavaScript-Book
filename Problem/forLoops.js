@@ -134,7 +134,7 @@ for (let i of marks) {
 //Problem 9
 // 5 এর নামতা (multiplication table) প্রিন্ট করো, 1 থেকে 10 পর্যন্ত।
 for (let i = 1; i <= 10; i++) {
-    //console.log(i * 5);
+    console.log(i * 5);
 }
 
 
