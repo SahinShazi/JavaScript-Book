@@ -52,5 +52,9 @@ const laptop = {
   name: "28ch8",
   type: "laptop",
   display: "LCD",
-  processor: "Intel"
+  processor: {
+    name: "intel",
+    speed: "2.5gh",
+    drand: "AMD"
+  }
 }
