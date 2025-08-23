@@ -136,3 +136,17 @@ for (let i of marks) {
 for (let i = 1; i <= 10; i++) {
     //console.log(i * 5);
 }
+
+
+//Problem 10
+for (let i = 1; i <= 50; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    //console.log(i);
+  }
+}
+
+//Problem 11
+let names = ["Maruf", "Ismail", "Rakib", "Tanim", "Shihab"];
+for (let i = 0; i < names.length; i++) {
+  console.log(i + " - " + names[i]);
+}
