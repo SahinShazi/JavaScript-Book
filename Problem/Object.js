@@ -58,3 +58,33 @@ const laptop = {
     drand: "AMD"
   }
 }
+
+
+//Problem 8
+const student = {
+  name: "Sahin",
+  age: 17,
+  classs: 10,
+  subject: ["Bangla", 'English', 'Math']
+}
+
+//Problem 9
+const mobile = {
+  brand: "Oppo",
+  model: "A3s",
+  price: 12000,
+  future: {
+    camera: '20mp',
+    batter: '5000mh',
+    storage: '128gb'
+  }
+}
+
+//Problem 10
+const book = {
+  title: "মারহাবা স্ক্রিপ্টে মারো থাবা",
+  author: "ঝংকার মাহবুব",
+  about: "JavaScript",
+  publishYer: 2008,
+  category: "Learning"
+}
