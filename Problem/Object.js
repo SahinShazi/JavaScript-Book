@@ -88,3 +88,94 @@ const book = {
   publishYer: 2008,
   category: "Learning"
 }
+
+
+
+//------LOOPS CALL-----------
+//Problem 1
+let player = {
+    sports: "Football",
+    name: {
+        rakib: 23,
+        ali: 12,
+        samim: 30
+    }
+};
+console.log(player.name);
+
+//Problem 2
+const laptop = {
+    brand: "HP",
+    price: 120000,
+    hardDisc: "512GB SSD",
+    ram: "8GB DDR4",
+    screenSize: "15.6 inch"
+}
+
+console.log(laptop.screenSize);
+
+
+//Problem 3
+const favPlace = {
+    name: "Cox's Bazaar",
+    distance: "400km",
+    popularity: "hight"
+}
+
+console.log(favPlace["popularity"]);
+
+//Problem 4
+const phone = {
+    brand: "Oppo",
+    color: "black",
+    price: 200000
+}
+console.log(phone["price"]);
+
+
+//Problem 5
+const library = {
+    name: "Public Library",
+    location: "Dhaka",
+    books: 5000
+}
+
+console.log(library.location);
+
+//Problem 6
+const movie = {
+    name: "Inception",
+    director: "Nolan",
+    rating: 9
+}
+
+console.log(movie["rating"]);
+
+//Problem 7
+const college = {
+    name: "NDC",
+    establish: 1949,
+    group: ["Science", "Arts", "Commerce"]
+}
+
+console.log(college.group[1]);
+
+
+//Problem 8
+const family = {
+    'fathe,r': {
+        name: "Jamal",
+        age: 70,
+        passion: "Mechanical"
+    },
+    mother: {
+        name: "Minara",
+        age: 40,
+        passion: "Housewife"
+    }
+}
+
+let father = family["fathe,r"].age;
+let mother = family["mother"].age;
+
+console.log(father + mother); //110 
