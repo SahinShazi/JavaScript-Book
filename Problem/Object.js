@@ -179,3 +179,159 @@ let father = family["fathe,r"].age;
 let mother = family["mother"].age;
 
 console.log(father + mother); //110 
+
+//Problem 9
+const student = {
+  name: "Sahin Enam",
+  class: 10,
+  age: 17,
+  marks: {
+    English: 70,
+    Math: 90,
+    ICT: 100
+  }
+}
+
+/*console.log(student.marks["English"]);
+console.log(student.marks["Math"]);
+console.log(student.marks["ICT"]);
+console.log(student.marks.English + student.marks.Math + student.marks.ICT);*/
+
+//Problem 10
+const car = {
+  brand: "Tasla",
+  model: "1CG4",
+  color: "Green",
+  engine: {
+    horsepower: "5000",
+    type: "petrol",
+    CC: "Random any item"
+  }
+}
+
+//console.log(car.model);
+//console.log(car.engine.CC);
+
+
+
+
+//_________Object Keys and Values_________
+//Problem 1
+const book = {
+  name: "JavaScript book",
+  writer: "Janker Mahbub",
+  price: 650
+}
+
+/*const keys = Object.keys(book);
+const values = Object.values(book);
+
+console.log(keys);
+console.log(values);*/
+
+//Problem 2
+const article = {
+  title: "Learning JavaScript",
+  category: "Programmin"
+}
+
+//const check = Object.keys(article);
+//console.log(check.includes("author"));
+
+
+
+//Problem 3
+/*const laptop = {
+  brand: "Dell",
+  model: "Inspiron",
+  price: 45000
+}
+for (const key in laptop) {
+  const value = laptop[key];
+  console.log(key, value);
+}*/
+
+
+//Problem 4
+const phone = {
+  brand: "Samsung",
+  model: "Galaxy S21",
+  price: 85000
+}
+
+/*const keys = Object.keys(phone);
+
+for (const key of keys) {
+  console.log(key, phone[key]);
+}*/
+
+
+//Problem 5
+const bike = {
+  brand: "Hero",
+  price: 120000,
+  model: "Splendor"
+}
+
+/*const values = Object.values(bike);
+const keys = Object.keys(bike);
+console.log(values);
+console.log(keys);*/
+
+//Problem 6
+const books = {
+  book1: "Harry Potter",
+  book2: "The Hobbit",
+  book3: "Game of Thrones"
+}
+
+/*for (const key in books) {
+  const value = books[key];
+  console.log(value);
+}*/
+
+//Problem 7
+const numbers = {
+  a: 10,
+  b: 20,
+  c: 30,
+  d: 40
+}
+
+/*const a = (numbers.a);
+const b = (numbers.b);
+const c = (numbers.c);
+const d = (numbers.d);
+
+console.log(a + b + c + d);*/
+
+//Problem 8
+const player = {
+  name: "Messi",
+  team: "Argentina",
+  goals: 91
+} 
+
+//console.log(Object.values(player));
+
+//Problem 9
+const building = {
+  floors: 10,
+  address: {
+    street: "Main Road",
+    city: "Dhaka",
+    type: "Commercial"
+  }
+}
+
+/*for (const key in building) {
+  const value = building[key];
+
+  if (typeof value === "object") {
+    for (const subKey in value) {
+      console.log(value[subKey]);
+    }
+  } else {
+    console.log(value);
+  }
+}*/
