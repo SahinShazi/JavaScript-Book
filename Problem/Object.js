@@ -335,3 +335,59 @@ const building = {
     console.log(value);
   }
 }*/
+
+
+//________Object Freeze, Object Seal, Key Delete, ______________
+
+//Problem 1
+const headphone = {
+    brand: "Sony",
+    price: 3000,
+    color: "Red"
+}
+
+/*Object.seal(headphone);
+headphone.age = 30; //NOT Allowed
+headphone.price = 5000; //Allowed
+console.log(headphone);*/
+
+/*Object.freeze(headphone);
+headphone.age = 30;
+console.log(headphone);*/ //NOT Allowed
+
+//Problem 2
+const player = {
+    name: "Messie",
+    goals: 800,
+    clud: "Inter Miami"
+};
+
+// Object.seal(player);
+// player.goals = 700; // Allowed
+//player.age = 50; //NOT Allowed
+// console.log(player);
+
+/*Object.freeze(player);
+player.playAge = 30;
+console.log(player);*/
+
+
+//Problem 3
+const book = {
+    title: "Harry Potter",
+    author: "JK Rowling",
+    page: 500
+}
+
+// Object.seal(book);
+// book.author = "Rowling"; //Allowed
+// console.log(book);
+
+//Problem 4
+const gadget = {
+    name: "iPhone",
+    price: 120000
+}
+
+// delete gadget.price;
+// console.log(gadget);
