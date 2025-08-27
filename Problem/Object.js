@@ -391,3 +391,69 @@ const gadget = {
 
 // delete gadget.price;
 // console.log(gadget);
+
+
+//______Extra Problem__________
+//Problem 1
+const student = {
+    name: "Sahin Enam",
+    age: 12,
+    class: 10,
+    roll: 01
+}
+
+console.log(student.name);
+console.log(student.age);
+
+//Problem 2
+const book = {
+    title: "JavaScript",
+    author: "Random",
+    price: 650,
+    publisher: "Mahbub"
+}
+
+console.log(book.author);
+
+//Problem 3
+const car = {
+  brand: "Tasla",
+  model: "1CG4",
+  color: "Green"
+}
+
+for (let key in car) {
+  console.log(`Key: ${key}, Value: ${car[key]}.`);
+}
+
+
+
+//Problem 4
+const parson = {
+  name: "Sahin",
+  age: 15,
+  profession: "Student",
+  address: {
+    city: "Dhaka",
+    country: "Bangladesh"
+  }
+}
+
+console.log(parson.address.city);
+
+
+//Problem 5
+const mobile = {
+  brand: "Samsung",
+  price: 25557,
+  model: "S24 Ultra",
+  specs: {
+    ram: "12GB",
+    battery: "5000mah",
+    storage: "228GB"
+  }
+}
+
+console.log(`${mobile.specs.ram}, ${mobile.specs.battery}`);
+
+
