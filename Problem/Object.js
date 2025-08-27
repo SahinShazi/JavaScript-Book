@@ -456,4 +456,52 @@ const mobile = {
 
 console.log(`${mobile.specs.ram}, ${mobile.specs.battery}`);
 
+//Problem 6
+const university = {
+  name: "DC",
+  location: "12,c68",
+  totalStusent: 1200,
+  department: 23
+}
 
+for (let key in university) {
+  console.log(`Key: ${key}, Value: ${university[key]}`);
+}
+
+//Problem 7
+const movie = {
+  title: "Topan",
+  detector: "Napn",
+  year: 2026,
+  rating: 9
+}
+
+for (let property in movie) {
+  console.log(`${property}, ${movie[property]}`);
+}
+
+
+//Problem 8
+const restaurant = {
+  name: "Kache Beanie",
+  location: "Dhaka",
+  foodItems: ["Rich", "Botta", "Tol", "biryani"],
+  isOpen: "13 hours"
+}
+
+for (let property in restaurant) {
+  console.log(`${property} - ${restaurant[property]}`);
+}
+
+
+//Problem 9
+const computer = {
+  model: "Every",
+  brand: "HP",
+  price: 23000,
+  processor: "Intel core i7"
+}
+
+for (let key in computer) {
+  console.log(`${key} - ${computer[key]}`);
+}
