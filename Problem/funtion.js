@@ -59,3 +59,92 @@ function introduceMyself() {
 //I can write one line 
 
 introduceMyself()
+
+
+
+//function call 
+//Problem 1
+function sum(num1, num2) {
+    const sumNum = num1 + num2;
+    console.log(num1, 'and', num2, 'sum is:', sumNum);
+}
+
+const fatherAge = 50;
+const myAge = 17;
+
+sum(fatherAge, myAge);
+
+//Problem 2
+function doubleIt(num1, num2) {
+  const double = num1 * num2;
+  console.log(num1, num2, 'double is:', double);
+}
+
+doubleIt(20,15);
+
+
+//Problem 3
+function sums(marks1, marks2, marks3) {
+  const totalSum = marks1 + marks2 + marks3;
+  console.log('Total marks is:', totalSum);
+}
+
+const English = 79;
+const math = 90;
+const Physics = 95;
+
+sums(English, math, Physics);
+
+
+//Problem 4
+function calAge(number) {
+  const cal = 2025 - number;
+  console.log('You are', cal, 'yers old.');
+}
+
+calAge(2000);
+
+//Problem 5
+function calItems(number) {
+  const cal = number / 35;
+  console.log('You can buy', Math.floor(cal), 'Gourd');
+}
+
+calItems(4000);
+
+
+//Problem 6
+function addNum(num1, num2, num3, num4) {
+  const allNum = num1 + num2 + num3 + num4;
+  const average = allNum / 4;
+  console.log('The number average is', Math.floor(average));
+}
+
+addNum(12,23,34,45);
+
+
+//Problem 7
+function sellsPrice(number) {
+  const selling = number + 250;
+  console.log('Your products selling price is', selling);
+}
+
+sellsPrice(40);
+
+
+//Problem 8
+function age100(birthYear) {
+  const ageIn100 = birthYear + 100;
+  console.log("You will be 100 years old in", ageIn100);
+}
+
+age100(2009);
+
+
+//Problem 9
+function screenTime(number) {
+  const time = number * 30;
+  console.log('You used your mobile for', time, 'hours in a month.');
+}
+
+screenTime(7);
