@@ -148,3 +148,80 @@ function screenTime(number) {
 }
 
 screenTime(7);
+
+
+//Return function 
+//Problem 1
+function num(num1) {
+    if (num1 > 10) {
+        return true;
+    }
+    return false;
+}
+
+//console.log(num(88));
+
+//Problem 2
+function num(num1) {
+    if (num1 % 13 === 0) {
+        return true;
+    }
+    return false;
+}
+
+//console.log(num(10));
+
+//Problem 3
+const rice = 50;
+const curry = 70;
+const drink = 60;
+
+function add(price1, price2, price3) {
+    return price1 + price2 + price3;
+}
+
+const bill = add(rice, curry, drink);
+//console.log(bill);
+
+
+//Problem 4
+function check(age) {
+    if (age >= 18) {
+        return "Eligible for Voting";
+    }
+    return "Not Eligible for voting";
+}
+
+//console.log(check(15));
+
+
+//Problem 5
+function string() {
+    const text = `HI, I'm Sahin Enam! I can help you?`;
+    return text.length;
+}
+
+//console.log(string());
+
+
+//Problem 6
+function add(a, b, c) {
+  const sum = a + b + c;
+  const average = sum / 3;
+  return Math.floor(average);
+}
+
+//console.log(add(12, 32, 44));
+
+
+//Problem 7
+function add(num) {
+  if(num % 2 === 1) {
+    return num * -1;
+  }
+  else {
+    return "This is even number";
+  }
+}
+
+console.log(add(49));
