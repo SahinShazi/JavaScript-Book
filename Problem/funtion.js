@@ -305,7 +305,9 @@ function naums(num1, num2) {
   const milti = num1 * num2;
   if (milti > 100) {
     return milti / 2;
+  } else {
+    return milti * 3;
   }
 }
 
-console.log(naums(23,45));
+console.log(naums(33,88));
