@@ -225,3 +225,87 @@ function add(num) {
 }
 
 console.log(add(49));
+
+
+
+//Function's advance 
+//Problem 1
+function numberOfElement(nums) {
+    const len = nums.length;
+    return len;
+}
+
+const len = numberOfElement([42, 77, 88, 99, 43, 56, 78, 90]);
+
+//console.log(len); //Even 
+
+//Problem 2
+function firstString(string) {
+    if (typeof string === 'string') {
+        return string[0];
+    } else {
+        return "This is not string!";
+    }
+}
+
+//console.log(firstString("Sahin"));
+
+//Problem 3
+function nums(num) {
+    if (num > 10) {
+        const diby = num / 2;
+        return diby;
+    } else {
+        const diby = num * 2;
+        return diby;
+    }
+}
+
+//console.log(nums(6));
+
+//Problem 4
+function num(nums) {
+  const sum1 = nums[0];
+  const sum2 = nums[nums.length - 1];
+  const total = sum1 + sum2;
+  return total;
+}
+
+const sum = num([32,45,67,78,89,98,88]);
+//console.log(sum);
+
+//Problem 5
+function nums(num) {
+  if (num % 2 === 0) {
+    return num * 2;
+  } else {
+    if (num % 2 === 1) {
+      return num * 3;
+    }
+  }
+}
+
+console.log(nums(54));
+
+//Problem 6
+function names(nem1, nem2) {
+  const name1 = nem1.length;
+  const name2 = nem2.length;
+  if (name1 > name2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(names("Sahin", "Enam"));
+
+//Problem 7
+function naums(num1, num2) {
+  const milti = num1 * num2;
+  if (milti > 100) {
+    return milti / 2;
+  }
+}
+
+console.log(naums(23,45));
