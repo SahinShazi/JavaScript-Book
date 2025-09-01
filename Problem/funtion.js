@@ -311,3 +311,67 @@ function naums(num1, num2) {
 }
 
 console.log(naums(33,88));
+
+
+//Function advance 
+//Problem 1
+function sumOfNuberrs(numbers) {
+  let sum = 0;
+  for (const number of numbers) {
+    if (number % 2 === 1) {
+      sum = sum + number;
+    }
+    return sum;
+  }
+}
+
+//const result = [23,4,25,8,6,96];
+//const total = sumOfNuberrs(result);
+//console.log(`The sum of Odd Numbers ${total}`);
+
+//Problem 2
+function firstNum(number) {
+  const frist = number[0];
+  const sec = number[1];
+  if (frist < sec) {
+    return frist;
+  } else if(frist > sec) {
+      return sec;
+    } else {
+      return `Both numbers are equal.`;
+    }
+}
+
+//const array = [45,45,45];
+//console.log(firstNum(array));
+
+//Problem 3
+function showOfAge(age) {
+  if (age <= 18) {
+    return 18;
+  } else if (age >= 45) {
+    return 45;
+  } else if (age >= 18 && age <= 45) {
+    return age;
+  }
+}
+
+//console.log(showOfAge(17));
+
+//Problem 4
+function sumOfArr(numbers) {
+  let sum = 0;
+  for (const number of numbers) {
+    if (number % 4 === 0) {
+      sum = sum + number;
+    }
+  }
+  return sum;
+}
+
+/*const arrays = [2,3,4,56,55,44,6,77,90,100];
+const totals = sumOfArr(arrays);
+console.log(`The sum is ${totals}`);*/
+
+
+
