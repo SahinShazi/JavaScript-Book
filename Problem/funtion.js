@@ -373,5 +373,40 @@ function sumOfArr(numbers) {
 const totals = sumOfArr(arrays);
 console.log(`The sum is ${totals}`);*/
 
+//Problem 5
+function nums(num) {
+  if (num <= 20) {
+    return num * 2;
+  } else {
+    return num / 2;
+  }
+}
+
+//console.log(nums(12));
+
+//Problem 6
+function oddNum(nums) {
+  for (const num of nums) {
+    if (num < 0) {
+      console.log(num);
+    }
+  }
+}
+
+//const arry = [5,-88,55,6,3,66,6,7,9,11,13];
+//oddNum(arry);
 
 
+//Problem 7
+function numOfMilti(nums) {
+  let product = 1;
+  for (const num of nums) {
+    if (num % 3 === 0) {
+      product = product * num;
+    }
+  }
+  return product;
+}
+
+
+console.log(numOfMilti([34,66,86,87,88]));
