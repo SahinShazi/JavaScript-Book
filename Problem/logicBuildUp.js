@@ -54,3 +54,35 @@ function yardsToMetre(yards) {
 }
 
 console.log(yardsToMetre(10));
+
+
+//Problem 8
+function secondToMinute(second) {
+  const minutes = second / 60;
+  const minutesFaction = parseInt(minutes);
+  const numberReminder = second % 60;
+  const result = minutesFaction + ' minute ' + numberReminder + ' second';
+  return result;
+}
+
+console.log(secondToMinute(120));
+
+//Problem 9
+function metreToMilliliter(metre) {
+  const milliliter = metre * 1000;
+  const result = milliliter + ' milliliter';
+  return result;
+}
+
+console.log(metreToMilliliter(6));
+
+
+//Problem 10
+function kiloToMile(kilo) {
+  const mile = kilo * 0.621;
+  return mile;
+}
+
+console.log(kiloToMile(6))
+
+
