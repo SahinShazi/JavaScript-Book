@@ -86,3 +86,58 @@ function kiloToMile(kilo) {
 console.log(kiloToMile(6))
 
 
+
+
+
+//----------------------
+//Problem 1
+function incomeAmount(amount) {
+  if (amount <= 50000) {
+    return 10;
+  } else if (amount > 50000 && amount <= 100000) {
+    return 20;
+  } else if (amount > 100000 && amount <= 200000) {
+    return 30;
+  } else {
+    return 40;
+  }
+}
+
+/*console.log(incomeAmount(100002)); // 40
+console.log(incomeAmount(50001));  // 20
+console.log(incomeAmount(100000)); // 20
+console.log(incomeAmount(100001)); // 30*/
+
+//Problem 2
+function deliveryCost(cost) {
+  if (cost <= 10) {
+    return "Delivery cost: 100";
+  } else if (cost <= 20) {
+    return "Delivery cost: 300";
+  } else if (cost <= 50) {
+    return "Delivery cost: 1000";
+  } else {
+    const total = cost * 100;
+    return "Delivery cost: " + total;
+  }
+}
+
+//console.log(deliveryCost(60));
+
+
+//PROBLEM 3
+function marks(mark) {
+  if (mark >= 80) {
+    return "A+";
+  } else if(mark >= 70 && mark <= 80) {
+    return "B";
+  } else if(mark >= 60 && mark <= 70) {
+    return "C";
+  } else if(mark >= 50 && mark <= 60) {
+    return "D";
+  } else {
+    return "F";
+  }
+}
+
+//console.log(marks(90))
