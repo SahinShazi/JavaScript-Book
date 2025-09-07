@@ -172,3 +172,17 @@ const nums = [12,32,12,21,54,6,78,8,7,9];
 const avg1 = evenNumber(nums);
 console.log(`The average of these numbers is ` + avg1);
 
+//Problem 2
+function maltiNumber(numbers) {
+  const arrayResult = [];
+  for (const number of numbers) {
+    if (number % 2 !== 0) {
+      arrayResult.push(number * 2);
+    }
+  }
+  return arrayResult;
+}
+
+const nums = [1,2,3,4,5,6,7,8];
+const result = maltiNumber(nums);
+console.log(result);
