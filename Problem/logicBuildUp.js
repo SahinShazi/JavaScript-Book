@@ -141,3 +141,34 @@ function marks(mark) {
 }
 
 //console.log(marks(90))
+
+
+//————————————————————————————————————————————————————————————
+//PROBLEM 1
+function evenNumber(numbers) {
+  const even = [];
+  for (number of numbers) {
+    if (number % 2 === 0) {
+      even.push(number);
+    }
+  }
+
+  if (even.length === 0) {
+    return 0;
+  }
+
+  let sum = 0;
+  for (const number of even) {
+    sum += number;
+  }
+
+  const count = even.length;
+  const avg = sum / count;
+  return parseFloat(avg.toFixed(0));
+}
+
+const nums = [12,32,12,21,54,6,78,8,7,9];
+//const nums = [1,3,5,7,9];
+const avg1 = evenNumber(nums);
+console.log(`The average of these numbers is ` + avg1);
+
