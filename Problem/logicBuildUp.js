@@ -235,3 +235,26 @@ const nums2 = [12,13,14,15,16,17,18,20,90];
 //const nums2 = [12,14,16,18];
 const oddsNum = oddNumber(nums2);
 console.log(`This numbers average is ` + oddsNum);
+
+
+//PROBLEM 5
+function oddsNumbers(numbers) {
+  const odds = [];
+  for (const number of numbers) {
+    if (number % 2 !== 0) {
+      odds.push(number - 1);
+    }
+  }
+
+  if (odds.length === 0) {
+    return 0;
+  }
+
+  return odds;
+}
+
+//const nums = [12,13,14,11,16,18,17,19,20];
+const nums = [2,4,6,8,10];
+
+const result = oddsNumbers(nums);
+console.log(result);
