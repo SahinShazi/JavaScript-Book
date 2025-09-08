@@ -187,6 +187,8 @@ const nums = [1,2,3,4,5,6,7,8];
 const result = maltiNumber(nums);
 console.log(result);
 
+
+
 //PROBLEM 3 
 function oddEvenNum(numbers) {
   for (const number of numbers) {
@@ -202,3 +204,34 @@ function oddEvenNum(numbers) {
 const nums1 = [2,4,6,8,10];
 const result = oddEvenNum(nums1);
 console.log(result);
+
+
+
+//PROBLEM 4
+function oddNumber(numbers) {
+  const odds = [];
+
+  for (const number of numbers) {
+    if (number % 2 !== 0) {
+      odds.push(number);
+    }
+  }
+
+  if (odds.length === 0) {
+    return 0;
+  }
+
+  let sum = 0;
+  for (const number of odds) {
+    sum+= number;
+  }
+
+  const nums1 = odds.length;
+  const result = sum / nums1;
+  return result;
+}
+
+const nums2 = [12,13,14,15,16,17,18,20,90];
+//const nums2 = [12,14,16,18];
+const oddsNum = oddNumber(nums2);
+console.log(`This numbers average is ` + oddsNum);
