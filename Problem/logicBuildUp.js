@@ -186,3 +186,19 @@ function maltiNumber(numbers) {
 const nums = [1,2,3,4,5,6,7,8];
 const result = maltiNumber(nums);
 console.log(result);
+
+//PROBLEM 3 
+function oddEvenNum(numbers) {
+  for (const number of numbers) {
+    if (number % 2 !== 0) {
+      return `Odds numbers found`;
+    } 
+  }
+
+  return 'No odd numbers found';
+}
+
+//const nums1 = [1,3,5,7,9];
+const nums1 = [2,4,6,8,10];
+const result = oddEvenNum(nums1);
+console.log(result);
