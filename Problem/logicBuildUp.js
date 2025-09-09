@@ -258,3 +258,20 @@ const nums = [2,4,6,8,10];
 
 const result = oddsNumbers(nums);
 console.log(result);
+
+
+//Problem 6
+function noDuplicateArray(arry) {
+  const unique = [];
+  for (const item of arry) {
+    if (unique.includes(item) === false) {
+      unique.push(item);
+    }
+  }
+  return unique;
+}
+
+const number = [23,23,44,44,55,55,66,66,99,99,88,88,00];
+
+const array = noDuplicateArray(number);
+console.log(array);
