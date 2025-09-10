@@ -296,3 +296,18 @@ const numbers = [12, 45, 67, 23, 89, 34];
 const result = Math.max(...numbers);
 
 console.log("The maximum number is",result);
+
+
+//Problem 9
+function lowNumFinder(numbers) {
+  let low = numbers[0];
+  for (const number of numbers) {
+    if (number < low) {
+      low = number;
+    }
+  }
+  return low;
+}
+
+const nums = [23,45,76,89,21,32];
+console.log(lowNumFinder(nums));
