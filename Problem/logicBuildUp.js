@@ -275,3 +275,17 @@ const number = [23,23,44,44,55,55,66,66,99,99,88,88,00];
 
 const array = noDuplicateArray(number);
 console.log(array);
+
+
+//PROBLEM 7
+let a = 7;
+let b = 5;
+
+console.log("After swap:", a,b);
+
+let temp = a;
+
+a = b;
+b = temp;
+
+console.log("Before swap:", a,b);
