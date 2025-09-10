@@ -289,3 +289,10 @@ a = b;
 b = temp;
 
 console.log("Before swap:", a,b);
+
+
+//PROBLEM 8
+const numbers = [12, 45, 67, 23, 89, 34];
+const result = Math.max(...numbers);
+
+console.log("The maximum number is",result);
