@@ -71,3 +71,48 @@ const result4 = {
 
 console.log(priceAndQuantity(result4));
 
+
+//Problem 8
+function arrayOfMalti(array = [4,5,7,9]) {
+  const malti = [];
+
+  for (const num of array) {
+    malti.push(num * 2);
+  }
+  return malti;
+}
+
+console.log(arrayOfMalti());
+const result5 = [4,6,8,10];
+console.log(result5);
+
+
+//PROBLEM 9
+function principalOfRate(object = {principal: 1000, rate: 5}) {
+  const malti = object.principal * object.rate / 100;
+  return malti;
+}
+
+console.log(principalOfRate());
+const obj = {
+  principal: 10000,
+  rate: 20
+}
+console.log(principalOfRate(obj));
+
+
+//Problem 10
+function calculateSalary(obj = { salary: 50000, tax: 10}) {
+  const salary = obj.salary;
+  const tax = obj.tax;
+  const taxMoney = taxAmount = (salary * tax) / 100;
+  const netSalary = salary - taxAmount;
+  return netSalary;
+}
+
+console.log(calculateSalary());
+const object = {
+  salary: 60000,
+  tax: 20
+}
+console.log(calculateSalary(object));
