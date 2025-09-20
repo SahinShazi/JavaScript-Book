@@ -81,3 +81,84 @@ const {
 } = teacher;
 
 console.log(name1, profession);
+
+
+
+//---------------------------
+//Problem 1
+const product = {
+    name: "Laptop",
+    price: 50000,
+    brand: "Dell"
+}
+
+const {
+    name,
+    ...another
+} = product;
+console.log(another);
+
+//Problem 2
+const project = {
+    id: 101,
+    title: "Web App",
+    budget: 3000,
+    client: "Tech Corp"
+}
+
+const {
+    title,
+    ...another1
+} = project;
+console.log(another1);
+
+//Problem 3
+const programmer = {
+    name: "Sophia",
+    language: "JavaScript",
+    experience: 5,
+    speciality: "Frontend",
+    tools: "React"
+}
+
+const {
+    language,
+    speciality,
+    ...details
+} = programmer;
+console.log(details);
+
+
+//Problem 4
+const numbers5 = [10, 20, 3, 30, 300, 3000];
+const [num1, num2, ...anotherNum] = numbers5;
+console.log(anotherNum);
+
+
+//Problem 5
+function slipping(num1, num2, ...rest) {
+    let sum = 0;
+    for (let n of rest) {
+        sum += n;
+    }
+    console.log(sum);
+}
+slipping(2, 3, 4, 5, 6, 7, 8, 9, 9);
+
+
+
+//Problem 6
+//Problem 6
+function number(...rest) {
+    let sum = 0;
+    let lengthOfNum = rest.length;
+    for (let n of rest) {
+        sum += n;
+    }
+    let ava = sum / lengthOfNum;
+    return ava;
+}
+
+let avar = number(2, 3, 4, 5, );
+console.log(`The number of average ${avar}`);
+
