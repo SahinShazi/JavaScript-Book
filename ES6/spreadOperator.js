@@ -34,14 +34,29 @@ console.log(Website);
 
 //Problem 5
 const young = {
-  name: "Afrin",
-  age: 30,
-  county: "Bangladesh"
+    name: "Sahin",
+    age: 30,
+    country: "Bangladesh"
 }
 
-const clone = {...young};
+const {
+    name,
+    age
+} = young;
+console.log({
+    name,
+    age
+});
+
+//Problem 6
+const car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+}
+
+const clone = {
+    ...car,
+    year: 2025
+};
 console.log(clone);
-
-
-
-
