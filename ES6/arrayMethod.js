@@ -69,3 +69,55 @@ const studentInfo = students.map((student, index, array) => {
 });
   
 console.log(studentInfo);
+
+
+
+//Problem 8
+const price = [30, 45, 20, 60, 10];
+
+const results9 = price.map(pri => pri + 13);
+console.log(results9);
+
+//Problem 9
+const names = ["Messi", "Maradoma", "Pele", "Zidane", "Ronaldo"];
+
+const max5name = names.filter(nam => nam.length > 5);
+console.log(max5name);
+
+
+//Problem 10
+const numbers = [10, 15, 20, 25, 30, 35];
+const maxNum = numbers.find(num => num > 20);
+console.log(maxNum);
+
+
+//Problem 11
+const higest = [56, 70, 65, 68, 72, 73, 45, 70];
+const maxNumOf69 = higest.filter(num => num > 69);
+console.log(maxNumOf69);
+
+
+//Problem 12
+const someNum = [7, 10, 25, 20, 25, 30];
+const decided3 = someNum.map(num => num / 3);
+console.log(decided3);
+
+//Problem 13
+const myFriendNames = ["Sahin", "Maruf", "Nahim", "Ismail", "Jihad"];
+const thirdLatter = myFriendNames.map(fri => fri[2]);
+console.log(thirdLatter);
+
+
+//Problem 14
+const someNume = ["Sahin", "Maruf", "Nahim", "Ismail", "Jihad", "Hassan", "Havo"];
+const startH = someNume.find(num => num[0] === 'H');
+console.log(startH);
+
+//Problem 15
+const smallArray = [1, 2, 3, 4, 5, 6, 7];
+const forEach = smallArray.forEach(num => console.log(num));
+
+
+//Problem 16
+const everyName = ["Sahin", "Rakib", "Sojun", "Sabbir"];
+const everyNameEach = everyName.forEach(name => console.log(name));
