@@ -121,3 +121,30 @@ const forEach = smallArray.forEach(num => console.log(num));
 //Problem 16
 const everyName = ["Sahin", "Rakib", "Sojun", "Sabbir"];
 const everyNameEach = everyName.forEach(name => console.log(name));
+
+
+
+//Problem 17
+const numbersSome = [20,50,200,39,70,60,90];
+const someFun = numbersSome.some(num => num > 100);
+console.log(someFun);
+
+
+//Problem 18
+const arrayNumSome = [10,30,40,20,69,80];
+const debided5 = arrayNumSome.every(num => num % 5 === 0);
+console.log(debided5);
+
+
+//Problem 19
+const someWords = ["Hi","Sahin","Baby","Hello"];
+const SomeWords = someWords.some(word => word === "Hello");
+
+console.log(SomeWords);
+
+
+//Problem 20
+const everyAge = [19,45,30,20,40,71];
+const everyAgeOf18 = everyAge.every(age => age > 18);
+
+console.log(everyAgeOf18);
