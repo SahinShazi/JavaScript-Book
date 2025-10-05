@@ -17,3 +17,12 @@ console.log(lowerCase);
 const language = 'JavaScript';
 const lower = language.toLowerCase();
 console.log(lower.includes('script'));
+
+
+//Problem 4 
+const text = 'NodeJs';
+if (text[0] === 'N') {
+  console.log(true)
+} else {
+  console.log(false);
+}
