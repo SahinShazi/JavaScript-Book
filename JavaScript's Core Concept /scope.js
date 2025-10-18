@@ -21,3 +21,13 @@ function inner() {
 
 console.log(inside);
 //ReferenceError: inside is not defined 
+
+
+//Problem 3 
+if (true) {
+  let temperature = 66;
+}
+
+console.log(temperature);
+
+//ReferenceError: temperature is not defined
