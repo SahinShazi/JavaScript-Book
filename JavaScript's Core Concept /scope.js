@@ -12,3 +12,12 @@ let myIncome = 600000;
 let myTax = calculation(myIncome);
 
 console.log("Your tax is ", myTax);
+
+
+//Problem 2 
+function inner() {
+  let inside = "Internal secret hiding place";
+}
+
+console.log(inside);
+//ReferenceError: inside is not defined 
