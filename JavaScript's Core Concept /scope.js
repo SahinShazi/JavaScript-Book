@@ -31,3 +31,15 @@ if (true) {
 console.log(temperature);
 
 //ReferenceError: temperature is not defined
+
+
+//Problem 4 
+function schoolDetails(){
+  let schoolName = "High School";
+  
+  function desplySchoolName() {
+    console.log(schoolName);
+  }
+  desplySchoolName()
+}
+schoolDetails();
