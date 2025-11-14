@@ -188,7 +188,7 @@ console.log(name ?? "Guest");  // "" (empty string valid)
 ```
 
 ### তুলনা টেবিল:
-
+```
 | Value | || দিয়ে | ?? দিয়ে |
 |-------|---------|---------|
 | `null` | ডান পাশ | ডান পাশ |
@@ -197,7 +197,7 @@ console.log(name ?? "Guest");  // "" (empty string valid)
 | `""` | ডান পাশ | বাম পাশ ("") |
 | `false` | ডান পাশ | বাম পাশ (false) |
 
----
+````
 
 ## ??= (Nullish Assignment)
 
