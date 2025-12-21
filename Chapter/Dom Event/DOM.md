@@ -82,14 +82,14 @@ Saint Martin
 ### JavaScript:
 ```javascript
 const titleText = document.getElementById('text');
-console.log(titleText); 
+console.log(titleText.innerText); 
 
 titleText.innerText = "Updated Text Heading"
 ```
 
 **Output:**
 ```
-<h1 id="text">This is a Heading</h1>  // Console এ
+This is a Heading // Console এ
 
 // Page এ heading change হয়ে যাবে:
 Updated Text Heading
