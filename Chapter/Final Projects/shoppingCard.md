@@ -123,7 +123,7 @@ addToCart(999, 1);  // ID 999 exist করে না
 
 ```javascript
 if (product.stock < quantity) {
-  return "Not enough stock.";
+  return "Not enough stock."; 
 }
 ```
 
